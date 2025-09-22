@@ -12,7 +12,7 @@ app.get("/", (req, res) => {
     res.send("Servidor funcionando...");
 });
 
-app.use("/creepypasta", creepypastaRoutes)
+app.use("/creepypastas", creepypastaRoutes)
 
 app.listen(serverPort, () => {
     console.log(`Servidor funcionando em http://localhost:${serverPort}.`);
