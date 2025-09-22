@@ -1,4 +1,4 @@
-const creepypasta = [
+const creepypastas = [
     {
       id: 1,
       titulo: 'The Russian Sleep Experiment',
@@ -112,4 +112,4 @@ const creepypasta = [
   ];
 
 
-export default { creepypasta }
+export default { creepypastas }
